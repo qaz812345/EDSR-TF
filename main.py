@@ -45,7 +45,7 @@ if __name__ == "__main__":
     scale = args.scale
     #meanbgr = [103.1545782, 111.561547, 114.35629928] defult
     #meanbgr = [91.19977731, 114.29612645, 122.37348829] for 291 dataset
-    meanbgr = calcmean(args.traindir, True)
+    meanbgr = data_utils.calcmean(args.traindir, True).tolist()
 
     # Set checkpoint paths for different scales and models
     ckpt_path = ""
