@@ -56,7 +56,7 @@ EDSR-TF
 * Random flip
 
 ### Training Command:
-```python main.py --train --fromscratch --scale 3 --traindar data/train --validdir data/val --epochs 100 --batch 32```
+```python main.py --train --fromscratch --scale 3 --traindar data/train --validdir data/val --epochs 100 --batch 32 --B 64 --F 128```
 
 # Inference
 To test on test dataset with a scale of 3.
