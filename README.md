@@ -1,7 +1,7 @@
 # EDSR-TF
 This is a task of image super resolution. We use 291 dataset which contains 291 high-resolution images as the training set. We train an EDSR network from [GitHub](https://github.com/Saafke/EDSR_Tensorflow). EDSR is an enhanced version of the residual network architecture which handles a specific super-resolution scale, and it use the residual block without the batch normalization.
 
-We test on Set14 dataset which contains 14 low-resolution images on a scale of 3, and the highest testing PSNR can reach 25.664 dB.
+We test on Set14 dataset which contains 14 low-resolution images on a scale of 3, and the highest testing PSNR can reach 25.680 dB.
 
 # Reproducing Submission
 1. [Requirement](#Requirement)
